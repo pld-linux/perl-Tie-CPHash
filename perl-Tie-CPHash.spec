@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	CPHash
+%define		pdir	Tie
+%define		pnam	CPHash
 Summary:	Tie::CPHash perl module
 Summary(pl):	Modu³ perla Tie::CPHash
 Name:		perl-Tie-CPHash
