@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Tie-CPHash
 Name:		perl-Tie-CPHash
 Version:	1.001
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/Tie-CPHash-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/Tie-CPHash-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Tie-CPHash - provides a hash table that is case preserving but case
-insensitive. 
+insensitive.
 
 %description -l pl
 Tie-CPHash - udostêpnia tablicê haszuj±c±, która zachowuje wielko¶æ
