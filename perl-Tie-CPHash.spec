@@ -28,7 +28,7 @@ liter ale ich nie rozró¿nia.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
