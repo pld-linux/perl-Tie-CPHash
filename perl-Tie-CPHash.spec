@@ -3,7 +3,7 @@ Summary:	Tie-CPHash perl module
 Summary(pl):	Modu³ perla Tie-CPHash
 Name:		perl-Tie-CPHash
 Version:	1.001
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
