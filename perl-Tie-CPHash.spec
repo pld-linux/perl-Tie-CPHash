@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	CPHash
-Summary:	Tie-CPHash perl module
-Summary(pl):	Modu³ perla Tie-CPHash
+Summary:	Tie::CPHash perl module
+Summary(pl):	Modu³ perla Tie::CPHash
 Name:		perl-Tie-CPHash
 Version:	1.001
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-CPHash - provides a hash table that is case preserving but case
+Tie::CPHash - provides a hash table that is case preserving but case
 insensitive.
 
 %description -l pl
-Tie-CPHash - udostêpnia tablicê haszuj±c±, która zachowuje wielko¶æ
+Tie::CPHash - udostêpnia tablicê haszuj±c±, która zachowuje wielko¶æ
 liter ale ich nie rozró¿nia.
 
 %prep
