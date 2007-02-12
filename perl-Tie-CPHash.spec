@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	CPHash
 Summary:	Tie::CPHash perl module
-Summary(pl):	Modu³ perla Tie::CPHash
+Summary(pl.UTF-8):   ModuÅ‚ perla Tie::CPHash
 Name:		perl-Tie-CPHash
 Version:	1.02
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tie::CPHash - provides a hash table that is case preserving but case
 insensitive.
 
-%description -l pl
-Tie::CPHash - udostêpnia tablicê haszuj±c±, która zachowuje wielko¶æ
-liter ale ich nie rozró¿nia.
+%description -l pl.UTF-8
+Tie::CPHash - udostÄ™pnia tablicÄ™ haszujÄ…cÄ…, ktÃ³ra zachowuje wielkoÅ›Ä‡
+liter ale ich nie rozrÃ³Å¼nia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
