@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	CPHash
 Summary:	Tie::CPHash perl module
-Summary(pl.UTF-8):   Moduł perla Tie::CPHash
+Summary(pl.UTF-8):	Moduł perla Tie::CPHash
 Name:		perl-Tie-CPHash
 Version:	1.02
 Release:	1
