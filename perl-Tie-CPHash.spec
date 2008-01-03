@@ -5,19 +5,20 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tie
 %define		pnam	CPHash
-Summary:	Tie::CPHash perl module
-Summary(pl.UTF-8):	Moduł perla Tie::CPHash
+Summary:	Tie::CPHash - Case preserving but case insensitive hash table
+Summary(pl.UTF-8):	Tie::CPHash - tablica haszująca zachowująca, ale nie rozróżniająca wielkości liter
 Name:		perl-Tie-CPHash
 Version:	1.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Tie/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6bf733fdd8ad4ff03c7169f6d7f704ff
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Tie-CPHash/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
