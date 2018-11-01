@@ -8,13 +8,13 @@
 Summary:	Tie::CPHash - Case preserving but case insensitive hash table
 Summary(pl.UTF-8):	Tie::CPHash - tablica haszująca zachowująca, ale nie rozróżniająca wielkości liter
 Name:		perl-Tie-CPHash
-Version:	1.04
+Version:	2.000
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Tie/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d9430275241f5d198c2af027aea294ee
+# Source0-md5:	e8c86f8294bd87b56b3c9d7e748ee1ce
 URL:		http://search.cpan.org/dist/Tie-CPHash/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
